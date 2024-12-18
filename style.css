@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+
+.logo img{
+    mix-blend-mode: multiply;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.h{
+    height: 400px;
+    width: 800px;
+    margin-top: 8%;
+}
+
+h1{
+    font-family: "Racing Sans One", serif;
+    font-weight: 500;
+    font-size: 100px;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+h2{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+p{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    color: whitesmoke;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.wn{
+    padding: 15px 40px;
+    border-radius: 10%;
+    margin-left: 47%;
+    margin-top: 5%;
+    background-color: #89a8b2c4;
+    color: white;
+}
+
+.wn:hover{
+    background-color: #e5e1dab4;
+    color: black;
+}
+
+
